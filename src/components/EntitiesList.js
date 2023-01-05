@@ -4,7 +4,6 @@ function EntitiesList({
   onEntityDetailsClick,
   propsToDisplay,
   data,
-  fetchMethod,
 }) {
   return (
     <ul>

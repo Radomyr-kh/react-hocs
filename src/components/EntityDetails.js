@@ -1,6 +1,6 @@
 import withLoading from './withLoading';
 
-function EntityDetails({propsToDisplay, data, fetchMethod}) {
+function EntityDetails({propsToDisplay, data}) {
   return (
     <div className='center'>
       <h3>{data.name} Details:</h3>
